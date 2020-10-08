@@ -1,1 +1,1 @@
-# Kotlin Extensions for React Native (react-native-ktx)
+# React Native Kotlin Extensions (react-native-ktx)
