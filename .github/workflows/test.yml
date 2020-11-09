@@ -1,0 +1,11 @@
+on: 
+  push:
+    tags-ignore:
+      - v*
+
+jobs:
+  my_job:
+    container:
+      image: reactnativecommunity/react-native-android:2.1
+    steps:
+      - run: yarn --pure-lockfile
