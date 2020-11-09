@@ -4,5 +4,6 @@ jobs:
   my_job:
     container:
       image: reactnativecommunity/react-native-android:2.1
+    runs-on: ubuntu-20.04
     steps:
       - run: yarn --pure-lockfile
